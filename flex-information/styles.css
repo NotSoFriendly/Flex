@@ -1,18 +1,30 @@
-* {
-  padding:0px;
+.header  {
+  font-family: monospace;
+  font-style:oblique;
+  font-size:36px;
+  display:flex;
+  justify-content:center;
+  font-weight:1000;
+  margin-top:10px;
+  margin-bottom:32px;
 }
 
-.inverted,
-.fancy {
-  font-family: Helvetica, "Times New Roman", sans-serif;
-  font-size: 28px;
+img{
+width:100px;
+height:auto;
 }
 
-.inverted {
-  background-color: black;
-  color: white;
+.content{
+display:flex;
+flex-wrap:wrap;
+gap:52px;
+justify-content:center;
+
 }
 
-.fancy {
-  background-color: yellow;
+.item{
+width:200px;
+text-align:center;
+ font-family: 'Courier New';
 }
+

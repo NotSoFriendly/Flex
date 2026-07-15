@@ -1,13 +1,22 @@
-* {
-  margin-bottom:20px;
+
+
+div{
+display:flex;
+height:500px;
+background-color:blue;
+  margin:5px;
   padding:0px;
+  border:2px solid black;
+  align-items:center;
+  justify-content:center;
 }
-
-
-div {
- background-color: red;
- font-style: white;
- font-size: 32px;
+.item{
+ background-color: rgb(255, 0, 123);
+ border: 2px solid rgb(1, 61, 117);
+ font-style: rgb(50, 0, 0);
+ font-size: 15px;
  text-align: center;
- font-weight: bold;
+ width:80px;
+ height:80px;
+ font-weight: 700;
 }
